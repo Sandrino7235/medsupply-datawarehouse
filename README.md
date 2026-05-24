@@ -34,16 +34,16 @@ THA/
 ├── medsupply_theme.json                         # Power BI theme
 ├── report.pbix                                  # Power BI Desktop file
 │
-├── SQL_Scripts/
+├── queries/
 │   ├── 01_supabase_medsupply_dw.sql            # Supabase DDL (dimensions + fact)
 │   ├── 02_supabase_medsupply_views.sql         # OLAP views (monthly revenue, product rank)
 │   └── README.md                                # SQL script documentation
 │
-├── Source_Data/
+├── sourcedata/
 │   ├── 01_MedSupply_Source.sql                 # SQL Server source database
 │   └── 02_MedSupply_DW.sql                     # SQL Server local DW (staging + dimensions)
 │
-└── Documentation/
+└── docs/
     ├── BIR - Assignment 2 - Brief.docx         # Assignment specification
     └── BIR - Assignment 2 - Cover Sheet.docx   # Cover page
 ```
